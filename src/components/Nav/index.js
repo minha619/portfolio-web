@@ -4,11 +4,11 @@ function Nav() {
     return (
         <header>
             <nav>
-                <ul>
+                <ul className="flex-row">
                     <li>
-                        <Link to='/'>About Me</Link>
+                        <Link to='/about'>About Me</Link>
                     </li>
-                    <li>
+                    <li className="mx-2">
                         <Link to='/projects'>Projects</Link>
                     </li>
                     <li>

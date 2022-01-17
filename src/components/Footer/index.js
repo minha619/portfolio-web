@@ -1,7 +1,9 @@
-function Footer(){
- return(
-     <div>Footer</div>
- )
+function Footer() {
+    return (
+        <section className="my-5" >
+            <p>Footer</p>
+        </section>
+    )
 }
 
 export default Footer;
