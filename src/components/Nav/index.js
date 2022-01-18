@@ -14,6 +14,9 @@ function Nav() {
                     <li>
                         <Link to='/contact'>Contact</Link>
                     </li>
+                    <li className="mx-2">
+                        <Link to='/resume'>Resume</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
