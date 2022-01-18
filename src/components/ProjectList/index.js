@@ -7,19 +7,22 @@ const ProjectList = ({ category }) => {
       name: 'Note Taker',
       category: 'projects',
       description:
-        'An application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.'
+        'An application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.',
+      website: 'https://guarded-castle-88690.herokuapp.com/'
     },
     {
       name: 'Budget Tracker',
       category: 'projects',
       description:
-        'A budget tracker application that allows offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a internet connection.'
+        'A budget tracker application that allows offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a internet connection.',
+      website: 'https://ancient-tor-39841.herokuapp.com/'
     },
     {
       name: 'Space RPG',
       category: 'projects',
       description:
-        'Based on the internet sensation “Farm RPG” - SPACE-RPG allows you to go on the text based adventure of a lifetime.. The user will be able to add expenses and deposits to their budget with or without a internet connection.'
+        'Based on the internet sensation “Farm RPG” - SPACE-RPG allows you to go on the text based adventure of a lifetime.. The user will be able to add expenses and deposits to their budget with or without a internet connection.',
+      website: 'https://quiet-mountain-05103.herokuapp.com/dashboard'
     }
   ]);
 
