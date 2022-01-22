@@ -6,7 +6,7 @@ function Projects(props) {
     const { currentCategory } = props;
     return (
         <section className="my-5" >
-            <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
+            <h2 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h2>
             <p>{currentCategory.description}</p>
             <ProjectList category={currentCategory.name} />
         </section>

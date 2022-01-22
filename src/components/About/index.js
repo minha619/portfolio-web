@@ -1,15 +1,11 @@
-import React from "react";
-
 function About() {
 
     return (
       <section className="my-5" >
-        <h1 id="about">Minha Kim</h1>
-        
+        <h2 id="about">Minha Kim</h2>
         <div className="my-2">
-          <p>
-            I am a creative front-end developer and designer based in NY.
-        </p>
+        <img src={require(`../../assets/img/profile.jpg`)} alt="Profile picture" className="img-thumbnail" />
+          <p>I am a creative front-end developer and designer based in NY. </p>
         </div>
       </section>
     )

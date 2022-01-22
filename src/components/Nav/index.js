@@ -5,7 +5,10 @@ function Nav() {
         <header>
             <nav>
                 <ul className="flex-row">
-                    <li>
+                    <li className="mx-5">
+                        <Link to='/projects'>MH</Link>
+                    </li>
+                    <li className="mx-2">
                         <Link to='/about'>About Me</Link>
                     </li>
                     <li className="mx-2">
